@@ -1,0 +1,15 @@
+INFO     JKCS.common.recordlog:conftest.py:9 ==========================开始测试接口===========================
+INFO     JKCS.common.recordlog:FZ_GET_post.py:59 接口名称：新增用户
+INFO     JKCS.common.recordlog:FZ_GET_post.py:60 接口请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO     JKCS.common.recordlog:FZ_GET_post.py:61 请求方法：post
+INFO     JKCS.common.recordlog:FZ_GET_post.py:62 测试用例名称：新增用户
+INFO     JKCS.common.recordlog:FZ_GET_post.py:63 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'passwd': '${md5_parme(123456)}'}
+INFO     JKCS.common.recordlog:FZ_GET_post.py:64 cookies：{'session': '68342hhhb984367'}
+ERROR    JKCS.common.recordlog:FZ_GET_post.py:77 the JSON object must be str, bytes or bytearray, not dict
+INFO     JKCS.common.recordlog:FZ_GET_post.py:25 接口的实际返回信息为： : {"error_code":null,"msg":"新增成功","msg_code":200}
+
+INFO     JKCS.common.recordlog:assertions.py:130 yaml文件的预期结果：[{'db': 'select * from student'}]
+INFO     JKCS.common.recordlog:connections.py:27 成功链接到数据库
+INFO     JKCS.common.recordlog:assertions.py:113 数据库断言成功
+INFO     JKCS.common.recordlog:assertions.py:153 测试成功
+INFO     JKCS.common.recordlog:conftest.py:11 ==========================测试接口完成===============================

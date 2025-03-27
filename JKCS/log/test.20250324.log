@@ -1,0 +1,1367 @@
+INFO - 2025-03-24 12:23:51,644 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 12:23:53,886 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 12:23:53,888 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 12:23:55,991 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 19:02:07,408 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：/dar/user/login
+INFO - 2025-03-24 19:02:07,408 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:02:07,409 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:02:07,409 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:02:07,409 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:02:07,409 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:02:07,409 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:02:07,409 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：/dar/user/login
+INFO - 2025-03-24 19:02:07,409 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:02:07,409 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:02:07,409 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 19:02:07,409 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:02:07,409 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:02:07,409 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test03', 'passwd': 'admin1234', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:06:40,644 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：/dar/user/login
+INFO - 2025-03-24 19:06:40,644 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:06:40,644 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:06:40,644 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:06:40,644 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:06:40,644 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:06:40,644 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:06:40,644 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：/dar/user/login
+INFO - 2025-03-24 19:06:40,644 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:06:40,644 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:06:40,644 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 19:06:40,645 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:06:40,645 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:06:40,645 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test03', 'passwd': 'admin1234', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:07:33,304 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：/dar/user/login
+INFO - 2025-03-24 19:07:33,304 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:07:33,304 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:07:33,304 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:07:33,304 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:07:33,304 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:07:33,304 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:07:33,304 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：/dar/user/login
+INFO - 2025-03-24 19:07:33,304 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:07:33,304 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:07:33,304 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 19:07:33,304 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:07:33,304 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:07:33,304 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test03', 'passwd': 'admin1234', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:07:44,230 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：/dar/user/login
+INFO - 2025-03-24 19:07:44,230 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:07:44,230 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:07:44,230 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:07:44,230 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:07:44,230 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:07:44,231 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:07:44,231 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：/dar/user/login
+INFO - 2025-03-24 19:07:44,231 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:07:44,231 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:07:44,231 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 19:07:44,231 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:07:44,231 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:07:44,231 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test03', 'passwd': 'admin1234', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:10:13,039 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：/dar/user/login
+INFO - 2025-03-24 19:10:13,039 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:10:13,039 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:10:13,039 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:10:13,039 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:10:13,039 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:10:13,039 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:10:13,040 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：/dar/user/login
+INFO - 2025-03-24 19:10:13,040 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:10:13,040 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:10:13,040 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 19:10:13,040 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:10:13,040 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:10:13,040 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test03', 'passwd': 'admin1234', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:11:35,446 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：/dar/user/login
+INFO - 2025-03-24 19:11:35,446 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:11:35,446 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:11:35,446 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:11:35,446 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:11:35,446 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:11:35,446 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:11:59,905 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：/dar/user/login
+INFO - 2025-03-24 19:11:59,905 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:11:59,905 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:11:59,906 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:11:59,906 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:11:59,906 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:11:59,906 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:12:26,404 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：/dar/user/login
+INFO - 2025-03-24 19:12:26,404 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:12:26,404 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:12:26,404 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:12:26,404 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:12:26,404 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:12:26,404 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:14:02,806 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：/dar/user/login
+INFO - 2025-03-24 19:14:02,806 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:14:02,806 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:14:02,807 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:14:02,807 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:14:02,807 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:14:02,807 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:14:02,807 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：/dar/user/login
+INFO - 2025-03-24 19:14:02,807 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:14:02,807 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:14:02,807 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 19:14:02,807 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:14:02,807 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:14:02,807 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test03', 'passwd': 'admin1234', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:14:17,701 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：/dar/user/login
+INFO - 2025-03-24 19:14:17,702 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:14:17,702 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:14:17,702 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:14:17,702 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:14:17,702 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:14:17,702 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:14:49,618 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：/dar/user/login
+INFO - 2025-03-24 19:14:49,618 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:14:49,618 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:14:49,618 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:14:49,618 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:14:49,618 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:14:49,618 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:14:49,618 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：/dar/user/login
+INFO - 2025-03-24 19:14:49,618 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:14:49,618 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:14:49,618 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 19:14:49,618 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:14:49,618 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:14:49,618 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test03', 'passwd': 'admin1234', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:17:43,682 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:17:43,683 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:17:43,683 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:17:43,683 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:17:43,683 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:17:43,683 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:17:43,683 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:17:43,683 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:17:43,683 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:17:43,683 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:17:43,683 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 19:17:43,683 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:17:43,683 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:17:43,683 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test03', 'passwd': 'admin1234', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:18:50,117 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:18:50,117 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:18:50,117 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:18:50,117 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:18:50,117 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:18:50,117 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:18:50,117 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:18:50,118 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:18:50,118 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:18:50,118 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:18:50,118 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 19:18:50,118 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:18:50,118 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:18:50,118 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test03', 'passwd': 'admin1234', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:22:12,039 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:22:12,039 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:22:12,039 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:22:12,040 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:22:12,040 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:22:12,040 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:22:12,040 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'None'}}
+INFO - 2025-03-24 19:22:12,040 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:22:12,040 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:22:12,040 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:22:12,040 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 19:22:12,040 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:22:12,040 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:22:12,040 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test03', 'passwd': 'admin1234', 'token': 'None'}}
+INFO - 2025-03-24 19:23:12,988 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:23:12,988 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:23:12,988 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:23:12,988 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:23:12,988 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:23:12,988 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:23:12,989 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'None'}}
+INFO - 2025-03-24 19:23:12,989 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:23:12,989 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:23:12,989 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:23:12,989 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 19:23:12,989 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:23:12,989 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:23:12,989 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test03', 'passwd': 'admin1234', 'token': 'None'}}
+INFO - 2025-03-24 19:25:57,373 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:25:57,373 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:25:57,373 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:25:57,373 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:25:57,373 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:25:57,373 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:25:57,373 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'None'}}
+INFO - 2025-03-24 19:25:57,373 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:25:57,373 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:25:57,373 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:25:57,373 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 19:25:57,373 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:25:57,373 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:25:57,373 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test03', 'passwd': 'admin1234', 'token': 'None'}}
+INFO - 2025-03-24 19:32:54,239 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：None
+INFO - 2025-03-24 19:32:54,240 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:32:54,240 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:32:54,240 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：None
+INFO - 2025-03-24 19:32:54,240 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:32:54,240 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：None
+INFO - 2025-03-24 19:32:54,240 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': '${get_ex_data(token)}'}}
+INFO - 2025-03-24 19:33:55,754 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:33:55,754 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:33:55,754 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:33:55,754 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:33:55,754 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:33:55,754 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:33:55,754 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:33:55,754 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:33:55,754 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:33:55,754 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:33:55,754 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 19:33:55,754 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:33:55,754 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:33:55,754 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test03', 'passwd': 'admin1234', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:34:15,135 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:34:15,135 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:34:15,135 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:34:15,135 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:34:15,135 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:34:15,135 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:34:15,135 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:36:19,806 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:36:19,806 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:36:19,806 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:36:19,806 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:36:19,806 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:36:19,806 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:36:19,806 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:36:38,681 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:36:38,681 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:36:38,681 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:36:38,681 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:36:38,681 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:36:38,681 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:36:38,681 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:36:38,681 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:36:38,681 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:36:38,681 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:36:38,682 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 19:36:38,682 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:36:38,682 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:36:38,682 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test03', 'passwd': 'admin1234', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:38:03,420 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:38:03,420 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:38:03,420 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:38:03,420 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:38:03,420 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:38:03,420 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:38:03,420 - FZ_GET_post.py:92 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:38:03,420 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:38:03,420 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:38:03,420 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:38:03,420 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 19:38:03,420 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:38:03,420 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:38:03,420 - FZ_GET_post.py:92 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test03', 'passwd': 'admin1234', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:42:20,121 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:42:20,121 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:42:20,121 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:42:20,121 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:42:20,121 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:42:20,121 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:42:20,121 - FZ_GET_post.py:92 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'None'}}
+INFO - 2025-03-24 19:42:20,122 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:42:20,122 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:42:20,122 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:42:20,122 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 19:42:20,122 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:42:20,122 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:42:20,122 - FZ_GET_post.py:92 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test03', 'passwd': 'admin1234', 'token': 'None'}}
+INFO - 2025-03-24 19:42:31,089 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:42:31,090 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:42:31,090 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:42:31,090 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:42:31,090 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:42:31,090 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:42:31,090 - FZ_GET_post.py:92 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:42:31,090 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:42:31,090 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:42:31,090 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:42:31,090 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 19:42:31,090 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:42:31,090 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:42:31,090 - FZ_GET_post.py:92 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test03', 'passwd': 'admin1234', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:45:44,405 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:45:44,405 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:45:44,406 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:45:44,406 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:45:44,406 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:45:44,406 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 19:45:44,406 - FZ_GET_post.py:100 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 19:45:44,412 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgxNjc0NCwianRpIjoiZjU4OTIxNDMtMGYwYi00NzFkLWI2ZWMtOGRmYTkwZTRkZDk2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgxNjc0NCwiZXhwIjoxNzQyODE3NjQ0fQ.ihSPKbNxLg21pXPevKp3uHGEZbIsxY6pWloN1LA6Xwk'}}
+INFO - 2025-03-24 19:45:44,412 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : <Response [200]>
+INFO - 2025-03-24 19:45:44,412 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:45:44,413 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:45:44,413 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:45:44,413 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 19:45:44,413 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:45:44,413 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 19:45:44,413 - FZ_GET_post.py:100 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 19:45:44,415 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : <Response [200]>
+INFO - 2025-03-24 19:45:54,738 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:45:54,738 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:45:54,738 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:45:54,738 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:45:54,738 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:45:54,738 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 19:45:54,738 - FZ_GET_post.py:100 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 19:45:54,744 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgxNjc1NCwianRpIjoiOGU5N2E3ZTctZTU5NS00YTlkLWEzMmQtMTliOWE2NzVhZTc2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgxNjc1NCwiZXhwIjoxNzQyODE3NjU0fQ.2P499IVSt0HU63ahLZLa1b9Eyos5nxPVUS44_0p0Tx8'}}
+INFO - 2025-03-24 19:45:54,744 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : <Response [200]>
+INFO - 2025-03-24 19:45:54,745 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:45:54,745 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:45:54,745 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:45:54,745 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 19:45:54,745 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:45:54,745 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 19:45:54,745 - FZ_GET_post.py:100 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 19:45:54,747 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : <Response [200]>
+INFO - 2025-03-24 19:47:12,537 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:47:12,537 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:47:12,537 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:47:12,537 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:47:12,537 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:47:12,537 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 19:47:12,537 - FZ_GET_post.py:100 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 19:47:12,541 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgxNjgzMiwianRpIjoiNWZlYjQxMzctZjUzMy00NzliLTgyMjEtZjgxNTk0MGE3ZTNlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgxNjgzMiwiZXhwIjoxNzQyODE3NzMyfQ.86fPEvP6-bxk1wLWiuOR-LraU9zBygb-ZR53lsg_Uy0'}}
+INFO - 2025-03-24 19:47:12,541 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : <Response [200]>
+INFO - 2025-03-24 19:48:12,731 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:48:12,731 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:48:12,732 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:48:12,732 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:48:12,732 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:48:12,732 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 19:48:12,732 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 19:48:12,736 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgxNjg5MiwianRpIjoiYmZmY2Q4MzEtMzliOS00ODcxLWFiZmEtMDZlYzg1NDFjODJlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgxNjg5MiwiZXhwIjoxNzQyODE3NzkyfQ.uDH_LkhSlxzeEO27GQnfLE1HTHjAkTQSNJuMbw_n9KY'}}
+INFO - 2025-03-24 19:48:12,736 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : <Response [200]>
+INFO - 2025-03-24 19:49:42,152 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:49:42,152 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:49:42,152 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:49:42,152 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:49:42,152 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:49:42,152 - FZ_GET_post.py:87 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 19:49:42,152 - FZ_GET_post.py:100 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 19:49:42,156 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgxNjk4MiwianRpIjoiNzc0M2M2MmUtODMzOC00MWE0LTkxYmItM2I0YmEwZmRhNjUwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgxNjk4MiwiZXhwIjoxNzQyODE3ODgyfQ.C6XExcR466D9Naxru-9qknPzMFc2_2tzfoYWNDZZm80'}}
+INFO - 2025-03-24 19:49:42,156 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : <Response [200]>
+INFO - 2025-03-24 19:50:09,409 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:50:09,409 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:50:09,409 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:50:09,409 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:50:09,409 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:50:09,409 - FZ_GET_post.py:87 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 19:50:09,409 - FZ_GET_post.py:100 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 19:50:09,414 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgxNzAwOSwianRpIjoiNzcwM2E0NzQtZWM1Ny00ZDVmLTgxOTktN2IxNzAyY2MzMDBmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgxNzAwOSwiZXhwIjoxNzQyODE3OTA5fQ.EDuG5c5mY-ei1IfQF5-Ff4FwuFD5d_V0uPFsoOnGK-M'}}
+INFO - 2025-03-24 19:50:09,414 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : <Response [200]>
+INFO - 2025-03-24 19:52:19,594 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:52:19,594 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:52:19,594 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:52:19,594 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:52:19,594 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:52:19,594 - FZ_GET_post.py:87 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 19:52:19,594 - FZ_GET_post.py:100 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 19:52:19,598 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgxNzEzOSwianRpIjoiZmFkNDk0YWYtNmU0OC00MmYwLTg4NzctMjdjMjE1YzI1NzBiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgxNzEzOSwiZXhwIjoxNzQyODE4MDM5fQ.g_KjyB6xoNfcB1H9CijQFheL6mJKQp7986_1_6YQu_c'}}
+INFO - 2025-03-24 19:52:19,598 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"a0deB3e2F150A3c44791D210dc36f","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 19:55:11,705 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:55:11,705 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:55:11,705 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:55:11,705 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:55:11,705 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:55:11,705 - FZ_GET_post.py:87 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:55:11,705 - FZ_GET_post.py:92 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:55:21,955 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:55:21,955 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:55:21,955 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:55:21,955 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:55:21,955 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:55:21,955 - FZ_GET_post.py:87 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 19:55:21,955 - FZ_GET_post.py:92 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 19:55:46,498 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:55:46,498 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:55:46,498 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:55:46,498 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:55:46,498 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:55:46,498 - FZ_GET_post.py:87 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 19:55:46,498 - FZ_GET_post.py:100 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 19:55:46,502 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgxNzM0NiwianRpIjoiNTcwMTUyOGYtZTc4MS00YmM3LTllNTItZTVhYzkyYTg2YzJlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgxNzM0NiwiZXhwIjoxNzQyODE4MjQ2fQ.D2jQf0dZWAs2IrB8dWD7IlKo3pTHb9SaUytzMQwxU6A'}}
+INFO - 2025-03-24 19:55:46,503 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"cCAB92AFBF4137ecc28D3Eb11b0DD","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 19:55:57,848 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:55:57,848 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:55:57,848 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:55:57,848 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:55:57,848 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:55:57,848 - FZ_GET_post.py:87 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 19:55:57,848 - FZ_GET_post.py:100 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 19:55:57,852 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgxNzM1NywianRpIjoiMTVlNjM0M2EtYjk4Yy00ZmIxLTgwZTItZWM0YjM3OWUwNjI3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgxNzM1NywiZXhwIjoxNzQyODE4MjU3fQ.HceSpDV5Vg0uMWO48KaeWPJs2bBJl7zKmAYy3IUhJ0A'}}
+INFO - 2025-03-24 19:55:57,852 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"E98dC6CA8A6FFdB898Dcd4F58B5De","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 19:56:01,153 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:56:01,154 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:56:01,154 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:56:01,154 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:56:01,154 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:56:01,154 - FZ_GET_post.py:87 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 19:56:01,154 - FZ_GET_post.py:100 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 19:56:01,158 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgxNzM2MSwianRpIjoiMzM5NzM0MjMtMzYwNC00MTM3LWIwYjMtYjZlZDZiMTMwOTdiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgxNzM2MSwiZXhwIjoxNzQyODE4MjYxfQ.GKgVIbROu8QQTwJH8S81duHtRo0DhHT8JlDu7VJMsk8'}}
+INFO - 2025-03-24 19:56:01,158 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"5AdEFCBa6CD702944FCfDA021fA8a","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 19:57:00,418 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:57:00,418 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:57:00,418 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:57:00,418 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:57:00,418 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:57:00,418 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 19:57:00,418 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 19:57:00,422 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgxNzQyMCwianRpIjoiZDYyM2MxYjktNGJhNy00M2I0LWJkMTYtODY2YzE4MzQzZWQxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgxNzQyMCwiZXhwIjoxNzQyODE4MzIwfQ.rONjJZ5MWxE4Imu2ildpIRTkZotMYYXuXHRMlmmV8eE'}}
+INFO - 2025-03-24 19:57:00,422 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"De0bFdc8923ad1DF6BEd7DAFa8A4F","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 19:57:54,649 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:57:54,649 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:57:54,649 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:57:54,649 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:57:54,649 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:57:54,649 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 19:57:54,649 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 19:57:54,653 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgxNzQ3NCwianRpIjoiZmEyZDE2YjgtZDBhMC00MjgzLTg5ODMtNmQ3N2MyYjAyYzQzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgxNzQ3NCwiZXhwIjoxNzQyODE4Mzc0fQ.3oPCLafzMv7-wMAGN3XcgnNC7y4nT-WDo4pD7XDS-e4'}}
+INFO - 2025-03-24 19:57:54,653 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"Ae2983817a3369c2faE8ECe89EaFc","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 19:58:47,881 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:58:47,881 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:58:47,881 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:58:47,881 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:58:47,881 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:58:47,881 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 19:58:47,882 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 19:58:47,885 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgxNzUyNywianRpIjoiZDhjNDMzYTUtNTA1OS00NTRkLTg1NmEtNDk4NTBiZGQ3MzU1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgxNzUyNywiZXhwIjoxNzQyODE4NDI3fQ.UHuQx2dvvsW4Wy9RNTkXTQpfe1tNFP10KZpwnb8BOg4'}}
+INFO - 2025-03-24 19:58:47,885 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"F46d6fF4DA37daCFD1FD1E798c39e","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 19:59:16,390 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 19:59:16,390 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 19:59:16,390 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 19:59:16,390 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 19:59:16,390 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 19:59:16,390 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 19:59:16,390 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 19:59:16,395 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgxNzU1NiwianRpIjoiZGUzNzZiNjEtMWYxYy00ZjA5LWE1MGUtMmVjYmZiNDJjNGFjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgxNzU1NiwiZXhwIjoxNzQyODE4NDU2fQ.IHJ3eBD_YWav0r0OWXhDsjqfOlYAug4xTTIGaD_8M00'}}
+INFO - 2025-03-24 19:59:16,395 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"66C22Edc3E7A51f3E734F0bEbFB50","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 20:00:06,133 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 20:00:06,133 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 20:00:06,133 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 20:00:06,133 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 20:00:06,133 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 20:00:06,133 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 20:00:06,133 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 20:00:06,137 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgxNzYwNiwianRpIjoiMGUwN2NjNWUtODg1Yi00NDk4LWI3NjQtYjQ2MzY3MmFiMDM4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgxNzYwNiwiZXhwIjoxNzQyODE4NTA2fQ.4lDtzWu6e7m37FJ6bkoAxx4JF6H9vVRmh-cw-DOWIB8'}}
+INFO - 2025-03-24 20:00:06,137 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"4311ed5feD9D5e4078480EFC1ba0F","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 20:00:40,603 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 20:00:40,603 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 20:00:40,603 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 20:00:40,603 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 20:00:40,603 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 20:00:40,603 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 20:00:40,603 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 20:00:40,608 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgxNzY0MCwianRpIjoiYWRiZGQwMjgtNjhiYS00NjFiLTg2MjgtM2VjMmVmYjIwNDRlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgxNzY0MCwiZXhwIjoxNzQyODE4NTQwfQ.j7judWzvJ6uTNRKeMYQwfhavRGlUkvR8fN9pzBWn4Sk'}}
+INFO - 2025-03-24 20:00:40,608 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"edDCe8f7a9eEf1edB7ee8C996c4EF","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 20:01:18,674 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 20:01:18,674 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 20:01:18,674 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 20:01:18,674 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 20:01:18,674 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 20:01:18,675 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 20:01:18,675 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 20:01:18,679 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgxNzY3OCwianRpIjoiODQ1OWU1YjUtODM2ZS00NjhmLWJkODgtZWY0MThhZGVlNWI1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgxNzY3OCwiZXhwIjoxNzQyODE4NTc4fQ.NTit0xQ2fBu9zaV0KHsrnqPMmOz5W3JBECkA4Cv-0-U'}}
+INFO - 2025-03-24 20:01:18,679 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"75CAc97FFC5DFF6623b3c5524bB67","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 20:02:06,656 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 20:02:06,656 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 20:02:06,656 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 20:02:06,656 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 20:02:06,656 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 20:02:06,656 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 20:02:06,656 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 20:02:06,660 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgxNzcyNiwianRpIjoiNGMzNjI2MjAtODk5MC00YmM1LTk0Y2YtYTllZWMyMzU4M2FhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgxNzcyNiwiZXhwIjoxNzQyODE4NjI2fQ.t3a_XPzgOxk8a_WNQSUuObB3P7k-QYCpG8SDaNqwsTc'}}
+INFO - 2025-03-24 20:02:06,660 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"209Aa77BD7944a6F337ad50D3270A","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 20:02:37,736 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 20:02:37,736 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 20:02:37,737 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 20:02:37,737 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 20:02:37,737 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 20:02:37,737 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 20:02:37,737 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 20:02:37,740 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgxNzc1NywianRpIjoiYzJlMWRiNGItMzVkNy00OWQzLWJjZDAtZDM3ZmMzMzAxMjgzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgxNzc1NywiZXhwIjoxNzQyODE4NjU3fQ.giBeZIqUL9gy6KN7sCikf9z67cJz3HxxjmOzmFmVVkg'}}
+INFO - 2025-03-24 20:02:37,740 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"A22CfFb8accC8ab6CccC92B3cB51D","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 20:03:03,076 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 20:03:03,076 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 20:03:03,076 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 20:03:03,076 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 20:03:03,076 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 20:03:03,077 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 20:03:03,077 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 20:03:03,081 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgxNzc4MywianRpIjoiOTI4Yzk3OWMtZWIyYi00MjhmLTg0MDgtODg1MzhlMmYzZmIzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgxNzc4MywiZXhwIjoxNzQyODE4NjgzfQ.eZHRNlnhESwwj1eHdp5ymXhLoDOF9uzcK-09p0xeyMo'}}
+INFO - 2025-03-24 20:03:03,081 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"eCAECCeCcCB6f78CcBf5AcDEa45bc","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 20:03:03,084 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 20:03:03,084 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 20:03:03,084 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 20:03:03,084 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 20:03:03,084 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 20:03:03,084 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 20:03:03,084 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 20:03:03,086 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 21:53:17,263 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 21:53:17,263 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 21:53:17,263 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 21:53:17,263 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 21:53:17,263 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 21:53:17,263 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 21:53:17,263 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 21:53:17,268 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNDM5NywianRpIjoiYTllZGQyMjMtNjZhOS00ZDE0LWE4OTktOWYyOGFiNzhmMWM3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNDM5NywiZXhwIjoxNzQyODI1Mjk3fQ.nWelvxS03H1vELs_yg5Kh5NJsJJ_sc7AsMI7E8hfSfI'}}
+INFO - 2025-03-24 21:53:17,268 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"e8b6ccD4ebED4ad4d5D06FEDF5410","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 21:53:17,271 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 21:53:17,271 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 21:53:17,271 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 21:53:17,271 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 21:53:17,271 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 21:53:17,271 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 21:53:17,271 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 21:53:17,273 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 21:54:00,093 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 21:54:00,093 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 21:54:00,093 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 21:54:00,093 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 21:54:00,093 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 21:54:00,093 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 21:54:00,093 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 21:54:00,096 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 21:54:00,096 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 21:54:00,096 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 21:54:00,096 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 21:54:00,096 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 21:54:00,096 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 21:54:00,096 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test03', 'passwd': 'admin1234', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 21:55:11,325 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 21:55:11,325 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 21:55:11,325 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 21:55:11,325 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 21:55:11,325 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 21:55:11,325 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 21:55:11,325 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 21:57:26,361 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 21:57:26,361 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 21:57:26,361 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 21:57:26,361 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 21:57:26,361 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 21:57:26,361 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 21:57:26,361 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 21:57:26,364 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 21:57:26,364 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 21:57:26,364 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 21:57:26,364 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 21:57:26,364 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 21:57:26,364 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 21:57:26,364 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test03', 'passwd': 'admin1234', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 22:00:15,116 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:00:15,116 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:00:15,116 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:00:15,116 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:00:15,116 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:00:15,116 - FZ_GET_post.py:87 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 22:00:15,116 - FZ_GET_post.py:92 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 22:02:06,078 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:02:06,078 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:02:06,078 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:02:06,078 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:02:06,078 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:02:06,078 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 22:02:06,078 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 22:02:31,624 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:02:31,624 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:02:31,624 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:02:31,624 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:02:31,624 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:02:31,624 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:02:31,624 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:02:31,629 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNDk1MSwianRpIjoiYjQ0MTYxOGMtOTk5Yi00ZTMxLThhYzgtMDY2YWQ2OGRmZmRmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNDk1MSwiZXhwIjoxNzQyODI1ODUxfQ.iyhxR3MzaF7wkKPjkFKbVTwB2T87D8rkApvd5rWAv4Y'}}
+INFO - 2025-03-24 22:02:31,629 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"79B259a182aDaaaBeBeCfa3F8c474","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:02:31,633 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:02:31,633 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:02:31,633 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:02:31,633 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 22:02:31,633 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:02:31,633 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:02:31,633 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:02:31,635 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 22:04:05,433 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:04:05,433 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:04:05,433 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:04:05,433 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:04:05,433 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:04:05,433 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:04:05,433 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:04:05,438 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNTA0NSwianRpIjoiOWFkNDIxNjgtZDM5ZS00Mzc3LTk5YWUtMTg1NDdjM2ZkNGMxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNTA0NSwiZXhwIjoxNzQyODI1OTQ1fQ.i6L7GqgeAFEqoTHbrVK1AiGrwSALSTuea--BwJSjuHU'}}
+INFO - 2025-03-24 22:04:05,438 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"dbb3e5B4b80816Fbe28DbCFfCdbd8","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:04:48,623 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:04:48,623 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:04:48,623 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:04:48,623 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:04:48,623 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:04:48,623 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:04:48,623 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:04:48,627 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNTA4OCwianRpIjoiZDFhZWVhN2UtOWU4MS00Njg1LWI4NWEtMThkYTkxNjllYzkzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNTA4OCwiZXhwIjoxNzQyODI1OTg4fQ.EOne_u7NvnZTy_XCHQYUbpsH2MLwOuHxcuknkoU9IwA'}}
+INFO - 2025-03-24 22:04:48,627 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"f5A586Baf4DDFB0aE112aFD0cEDFF","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:04:48,630 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:04:48,630 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:04:48,630 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:04:48,630 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 22:04:48,630 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:04:48,630 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:04:48,630 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:04:48,632 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 22:07:51,928 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:07:51,928 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:07:51,928 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:07:51,928 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:07:51,928 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:07:51,928 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:07:51,928 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:07:51,933 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNTI3MSwianRpIjoiNTljNjJkZjEtMTc0NC00OTRiLWE1ZDMtOTZhY2FmNjk0NzM3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNTI3MSwiZXhwIjoxNzQyODI2MTcxfQ.yjzUsHvBIDVCeZXd701xiIjRgphMxmKSWhFvO_QWHWQ'}}
+INFO - 2025-03-24 22:07:51,933 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"4De3EE76aff8C955ee850ae141FC1","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:07:51,936 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:07:51,936 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:07:51,936 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:07:51,936 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 22:07:51,936 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:07:51,936 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:07:51,936 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:07:51,938 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 22:08:20,154 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:08:20,154 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:08:20,154 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:08:20,154 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:08:20,154 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:08:20,155 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:08:20,155 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:08:20,158 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNTMwMCwianRpIjoiZjk4OTkyYzItOTEwNC00Mjc0LWI3MzYtM2FlODlkNGY1MzkxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNTMwMCwiZXhwIjoxNzQyODI2MjAwfQ.E7hmuG5Ctvg6mhpE6Sfd0V1yUIxOK05sFwRXTUIHM_Q'}}
+INFO - 2025-03-24 22:08:20,158 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"4e0A476Ce9EAe4E1CbD81f8992E2A","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:08:20,162 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:08:20,162 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:08:20,162 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:08:20,162 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 22:08:20,162 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:08:20,162 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:08:20,162 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:08:20,164 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 22:09:25,222 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:09:25,222 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:09:25,222 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:09:25,222 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:09:25,222 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:09:25,222 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:09:25,222 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:09:25,227 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNTM2NSwianRpIjoiZWM0OTdmMDctNjEwNi00MDIwLTgwZTYtZDE4ZWY0OTI1M2U0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNTM2NSwiZXhwIjoxNzQyODI2MjY1fQ.UmSJf7gAuUAVFLq0HrjDBcq0kkwCdTELQUSlGhvuAoU'}}
+INFO - 2025-03-24 22:09:25,227 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"7617CD91Db0d5A8D7eEaaFbD1dB5D","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:10:07,050 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:10:07,050 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:10:07,051 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:10:07,051 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:10:07,051 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:10:07,051 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:10:07,051 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:10:07,054 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNTQwNywianRpIjoiNmI3NzI1ZDMtMWEzMS00M2FhLTgwNjEtNDJlZDBmODZkYzlhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNTQwNywiZXhwIjoxNzQyODI2MzA3fQ.ZLu9vNyoH2wcVlGNqVxbNP29DDWdl4hXbsq2KhmaZHc'}}
+INFO - 2025-03-24 22:10:07,054 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"7f33c12941eD90BcdcdadB0Da0BD9","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:10:45,299 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:10:45,300 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:10:45,300 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:10:45,300 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:10:45,300 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:10:45,300 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:10:45,300 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:10:45,304 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNTQ0NSwianRpIjoiNmNmZGE3YjUtMjljYi00OTBjLTg4YmEtMjg4YWFjNTUwNGMwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNTQ0NSwiZXhwIjoxNzQyODI2MzQ1fQ.XPcXVYd8V1upVBti6bVQcpY9n929JY3WnRrUHlMppbM'}}
+INFO - 2025-03-24 22:10:45,304 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"8c32e01e83887e35dAbB4B8EB98F3","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:11:16,455 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:11:16,455 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:11:16,455 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:11:16,455 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:11:16,455 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:11:16,455 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 22:11:16,455 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 22:13:14,840 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:13:14,840 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:13:14,840 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:13:14,840 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:13:14,840 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:13:14,840 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+INFO - 2025-03-24 22:13:14,840 - FZ_GET_post.py:91 -[FZ_GET_post:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123', 'token': 'aefeAE60E892fccEb6fE4B43BACaa'}}
+INFO - 2025-03-24 22:13:42,087 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:13:42,087 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:13:42,087 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:13:42,087 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:13:42,087 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:13:42,087 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:13:42,087 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:13:42,091 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNTYyMiwianRpIjoiYjU3YWZjNzYtMGM0OS00YzNmLWE1YWQtMGIxMjhmNDBkYTA0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNTYyMiwiZXhwIjoxNzQyODI2NTIyfQ.Eul6PdlZ6NAQAl7nbLeG8Qj7cgOeE1W9XbfwdT-4wGM'}}
+INFO - 2025-03-24 22:13:42,091 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"f3aCA3Aad1A2C5Bd73458F1F4ffbE","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:13:42,095 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:13:42,095 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:13:42,095 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:13:42,095 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 22:13:42,095 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:13:42,095 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:13:42,095 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:13:42,098 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 22:14:47,362 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:14:47,362 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:14:47,362 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:14:47,362 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:14:47,362 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:14:47,362 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:14:47,362 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:14:47,366 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNTY4NywianRpIjoiNGY3NmIxNDgtOWI3Ny00ZGU4LWEzMDMtNGMyZGIxNzg4NDhjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNTY4NywiZXhwIjoxNzQyODI2NTg3fQ.-IbSBw5MwSzehlvd3FZx-Zf-y8rTDlB-uAvpMWSqnUU'}}
+INFO - 2025-03-24 22:14:47,366 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"48cDfEFBe5EAEDBfe1181C4bf0Ffb","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:14:47,370 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:14:47,370 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:14:47,370 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:14:47,370 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 22:14:47,370 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:14:47,370 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:14:47,370 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:14:47,372 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 22:15:28,429 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:15:28,429 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:15:28,429 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:15:28,429 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:15:28,429 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:15:28,429 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:15:28,429 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:15:28,433 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNTcyOCwianRpIjoiMmZiMmQwYzEtMGE0ZS00ODNjLTg5MjQtMGQ5ZjRkMmVjOGJkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNTcyOCwiZXhwIjoxNzQyODI2NjI4fQ.6J6GMsdxazlSeDNw4gDSvBVMAVUSf4Tk_WhG6YlIPHU'}}
+INFO - 2025-03-24 22:15:28,433 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"B5A852DFFAfF3A2FFbe90BdAFdA12","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:15:28,437 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:15:28,437 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:15:28,437 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:15:28,438 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 22:15:28,438 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:15:28,438 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:15:28,438 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:15:28,439 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 22:16:57,350 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:16:57,350 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:16:57,350 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:16:57,351 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:16:57,351 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:16:57,351 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:16:57,351 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:16:57,355 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNTgxNywianRpIjoiZjY2YTE0ZjYtYTY5ZS00NzJjLTlhM2UtMTAyMjc1OGQ5ZDg1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNTgxNywiZXhwIjoxNzQyODI2NzE3fQ.IgWWMnhk64HiGSeNJBvkuCkjF4TNOUsFFkvbzZBW_Gs'}}
+INFO - 2025-03-24 22:16:57,355 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"B5336440dEfae9cA0f860bdBfc60d","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:16:57,360 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:16:57,360 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:16:57,360 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:16:57,360 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 22:16:57,360 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:16:57,360 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:16:57,360 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:16:57,362 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 22:17:49,470 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:17:49,470 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:17:49,470 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:17:49,470 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:17:49,470 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:17:49,470 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:17:49,470 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:17:49,474 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNTg2OSwianRpIjoiYjU5NTk3NzMtNDNjOC00YzI2LWFhNTctNDRjNzMyZjY1ZWMxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNTg2OSwiZXhwIjoxNzQyODI2NzY5fQ.QRuHiMOJHAxpvGkyFGqt3j6sIrF5gwUGa10DXqv-cP8'}}
+INFO - 2025-03-24 22:17:49,475 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"d5d5c42FC6DFe11E2409b3E3D545D","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:17:49,479 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:17:49,479 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:17:49,479 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:17:49,479 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 22:17:49,479 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:17:49,479 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:17:49,479 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:17:49,482 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 22:18:01,002 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:18:01,002 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:18:01,002 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:18:01,002 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:18:01,002 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:18:01,002 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:18:01,002 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:18:01,007 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNTg4MSwianRpIjoiOGJkMTE1OGUtMzcxYi00YjU1LWI0ZDAtZTliY2Y2MzlkNTA5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNTg4MSwiZXhwIjoxNzQyODI2NzgxfQ.1FBbwdwSrDMrVXM1CXnHwUWC5bRsynlAcNxJSLsDGpA'}}
+INFO - 2025-03-24 22:18:01,007 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"A40aEfA5c0f84595C71e4FE5CD6f1","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:18:01,012 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:18:01,012 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:18:01,012 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:18:01,012 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 22:18:01,012 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:18:01,012 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:18:01,012 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:18:01,014 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 22:18:05,443 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:18:05,443 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:18:05,443 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:18:05,443 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:18:05,443 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:18:05,443 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:18:05,443 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:18:05,448 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNTg4NSwianRpIjoiZGMyOTQzMzItZTYxOC00MjZkLThhNDAtNWVkYjA4NDA0N2E5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNTg4NSwiZXhwIjoxNzQyODI2Nzg1fQ.efAwGrmO1HiQARiUD5z2b-cDGtayztqwrkjr7rN0uVY'}}
+INFO - 2025-03-24 22:18:05,448 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"3e7aa51Eb991D2B4C048cCe39bd54","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:18:05,453 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:18:05,453 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:18:05,453 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:18:05,453 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 22:18:05,453 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:18:05,453 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:18:05,453 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:18:05,456 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 22:18:08,905 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:18:08,905 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:18:08,906 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:18:08,906 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:18:08,906 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:18:08,906 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:18:08,906 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:18:08,911 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNTg4OCwianRpIjoiZWQ5M2UwZjQtZTgyYS00MTQ2LWIzYjctYjkwOWJiY2FjMjZmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNTg4OCwiZXhwIjoxNzQyODI2Nzg4fQ.inKZS8ep3PWJOnRCCfnfAfnGejZWVLW_UQPgNy9O1hw'}}
+INFO - 2025-03-24 22:18:08,911 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"d2BeDcCf81ffdf8AFeF9D9a63e77e","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:18:08,915 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:18:08,915 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:18:08,915 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:18:08,916 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 22:18:08,916 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:18:08,916 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:18:08,916 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:18:08,918 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 22:20:18,689 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:20:18,689 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:20:18,689 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:20:18,689 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:20:18,689 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:20:18,689 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:20:18,689 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:20:18,693 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNjAxOCwianRpIjoiY2Y0NzM3MjUtYTNiZC00NWNkLWJkNDMtOWYxODMwZjZkNzc1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNjAxOCwiZXhwIjoxNzQyODI2OTE4fQ.9JnhPy5DZ6Xnm8LYA3Fyj3kSpEoGZ_gffC-qXu9Oxjo'}}
+INFO - 2025-03-24 22:20:18,693 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"5afB39B2fE2dCFEbAb6cBb6F18abb","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:20:28,271 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:20:28,271 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:20:28,271 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:20:28,271 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:20:28,271 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:20:28,271 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:20:28,271 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:20:28,275 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNjAyOCwianRpIjoiOGZkODIyYzEtYzBjNS00YTQ0LTljZWUtNWU0ZmI1NDZhMTlmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNjAyOCwiZXhwIjoxNzQyODI2OTI4fQ.yubQbhif_JG5xJAxttjc6gIQPxlgTzANpqdyOA3OeBc'}}
+INFO - 2025-03-24 22:20:28,275 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"4D15E1ac0E3bD7c6392cb0F06a54C","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:20:51,100 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:20:51,100 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:20:51,100 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:20:51,100 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:20:51,100 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:20:51,100 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:20:51,100 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:20:51,104 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNjA1MSwianRpIjoiYTUzMGE5ZWEtMzYzYS00NzAwLTgzY2ItOTk5NjE2ZGFkMjk2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNjA1MSwiZXhwIjoxNzQyODI2OTUxfQ.-C7nvsEOps7groIKJF_AJ1vYoEMY5-bGhqQdE3iXYw8'}}
+INFO - 2025-03-24 22:20:51,104 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"A7fFa4A5fCa6bb49bcf6a6Ddcea49","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:20:51,109 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:20:51,109 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:20:51,109 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:20:51,109 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 22:20:51,109 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:20:51,109 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:20:51,109 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:20:51,111 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 22:23:13,865 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:23:13,865 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:23:13,865 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:23:13,865 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:23:13,865 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:23:13,865 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:23:13,865 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:23:13,870 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNjE5MywianRpIjoiNjMxMDhlZDYtYzlmYy00NTYxLWFhOWEtYWIxMmJlYTQ4ODUwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNjE5MywiZXhwIjoxNzQyODI3MDkzfQ.OxFNYN3B0fHCB2qrtBSi-ljICltsGzcb3nruXTL08wo'}}
+INFO - 2025-03-24 22:23:13,870 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"9A84fdC74d4EC9E158D4B04D02148","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:23:13,875 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:23:13,875 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:23:13,875 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:23:13,875 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 22:23:13,875 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:23:13,875 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:23:13,875 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:23:13,878 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 22:30:33,835 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:30:33,898 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:30:33,899 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:30:33,903 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:33:24,925 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:33:26,927 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:33:26,928 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:33:28,930 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:33:28,931 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:33:30,932 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:33:30,934 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:33:32,935 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:33:32,936 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:33:32,994 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:33:32,995 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:33:32,997 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:33:32,998 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:33:33,000 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:33:33,001 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:33:33,004 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:34:15,046 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:34:15,106 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:34:15,108 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:34:15,111 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:35:34,539 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:35:34,602 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:35:34,605 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:35:34,607 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:36:37,473 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:36:37,535 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:36:37,536 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:36:37,539 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:37:31,222 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:37:31,285 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:37:31,287 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:37:31,290 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:38:10,799 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:38:10,805 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:38:10,805 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:38:10,805 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:38:10,805 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:38:10,805 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:38:10,805 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:38:10,805 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:38:10,809 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNzA5MCwianRpIjoiMWM4NTM4YzAtNDc0MC00ZjdiLWE3OGMtNGM4NzgxODcyOTAyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNzA5MCwiZXhwIjoxNzQyODI3OTkwfQ.OoihsSmpsRLunSOGkXNVuWCnHh36LGhIV3hZY11SfW0'}}
+INFO - 2025-03-24 22:38:10,809 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"bBEfB80d2e3c66C16CFdA902aE6aA","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:38:10,814 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:38:10,815 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:38:10,815 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:38:10,815 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 22:38:10,815 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:38:10,815 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:38:10,815 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:38:10,817 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 22:38:10,818 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:38:10,820 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:38:10,825 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:38:10,826 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:38:10,826 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:38:10,826 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:38:10,826 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:38:10,826 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:38:10,826 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:38:10,829 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNzA5MCwianRpIjoiYjFkOTMwMzUtODUzYi00NzVhLWFkZWMtMDYyZDFjMDYzYTU4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNzA5MCwiZXhwIjoxNzQyODI3OTkwfQ.v5l8Pi-I1roDOY1Mw_BHVCvNK6ObfCBfi11I4bHsow4'}}
+INFO - 2025-03-24 22:38:10,829 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"d9005F4B097145E6CC2Be80Cf9ddf","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:38:10,834 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:38:10,834 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:38:10,834 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:38:10,834 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 22:38:10,834 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:38:10,834 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:38:10,834 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:38:10,836 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 22:38:10,837 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:41:15,874 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:41:15,881 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:41:15,881 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:41:15,882 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:41:15,882 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:41:15,882 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:41:15,882 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:41:15,882 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:41:15,886 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNzI3NSwianRpIjoiNjYzZDk0MjUtZjYyZS00YTcxLThhNGEtZjk0NTEyYzlkYTI5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNzI3NSwiZXhwIjoxNzQyODI4MTc1fQ.tWNBAl045wRRGhekA2Cq78sjNlh74gnyWSE-nxXHgzM'}}
+INFO - 2025-03-24 22:41:15,886 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"1BfBf897AeBFF45DcBa6272e8C1BC","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:41:15,891 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:41:15,892 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:41:15,892 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:41:15,892 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 22:41:15,892 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:41:15,892 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:41:15,892 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:41:15,894 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 22:41:15,895 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:43:30,990 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:43:30,997 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:43:30,997 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:43:30,997 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:43:30,997 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:43:30,998 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:43:30,998 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:43:30,998 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:43:31,002 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNzQxMSwianRpIjoiMTJlMzI0MmQtOTM2ZS00YTVlLTlhZWEtYTY2NzI5ODJlNzZkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNzQxMSwiZXhwIjoxNzQyODI4MzExfQ.aBbxYpbCqpXQqdiQbwXOIe5jN8FHSPg_J-BqVnNm56U'}}
+INFO - 2025-03-24 22:43:31,002 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"eDd7E2df9D90DB85E63585A2F925B","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:43:31,007 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:43:31,008 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:43:31,008 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:43:31,008 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 22:43:31,008 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:43:31,008 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:43:31,008 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:43:31,010 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 22:43:31,011 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:44:43,945 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:44:43,955 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:44:43,955 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:44:43,955 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:44:43,955 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:44:43,955 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:44:43,955 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:44:43,955 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:44:43,959 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNzQ4MywianRpIjoiYzBkYWE5ZjUtMTlkMi00ZjRjLTk2MjItNTM1YTFhYmYyNDJiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNzQ4MywiZXhwIjoxNzQyODI4MzgzfQ.GYcri283kJ-9eXgpHVtZBre8mZAg7oJ0rScB_HqxPlc'}}
+INFO - 2025-03-24 22:44:43,959 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"8e2Acbac00bDbA3538a8eE0b6cE8b","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:44:43,965 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:44:43,965 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:44:43,965 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:44:43,965 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 22:44:43,965 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:44:43,965 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:44:43,965 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:44:43,968 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 22:44:43,969 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:46:49,330 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:46:49,337 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:46:49,337 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:46:49,337 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:46:49,337 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:46:49,338 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:46:49,338 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:46:49,338 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:46:49,342 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNzYwOSwianRpIjoiN2E1OGZmMWEtNzk3Yy00OGMwLWIxZjEtNDg4NDNlNTBjNDYwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNzYwOSwiZXhwIjoxNzQyODI4NTA5fQ.sA8vzvZ2CJLITfo9Cay8HUEHgRxU8WF-Eflo8GsBccs'}}
+INFO - 2025-03-24 22:46:49,342 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"fb81DAdA727D60CD0Ab15Cf3daAf6","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:46:49,348 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:46:49,348 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:46:49,348 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:46:49,348 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 22:46:49,348 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:46:49,348 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:46:49,348 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:46:49,350 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 22:46:49,352 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:47:22,234 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:47:22,242 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:47:22,242 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:47:22,242 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:47:22,242 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:47:22,242 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:47:22,242 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:47:22,242 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:47:22,246 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNzY0MiwianRpIjoiYTliNGZjMmMtMTA5NS00YTE1LTg1YjktNzA4MTAwYWRlMGY5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNzY0MiwiZXhwIjoxNzQyODI4NTQyfQ.kIOpgymQ6GhPrDhgDc8CpsE6vnh28h5g9azCtZNrS8o'}}
+INFO - 2025-03-24 22:47:22,246 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"0Ebb980ceACEaeC9cfDe2CED0df4d","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:47:22,252 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:47:22,252 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:47:22,252 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:47:22,252 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 22:47:22,252 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:47:22,253 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:47:22,253 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:47:22,255 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 22:47:22,256 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:48:04,323 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:48:04,330 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:48:04,330 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:48:04,330 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:48:04,330 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:48:04,330 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:48:04,330 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:48:04,330 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:48:04,334 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNzY4NCwianRpIjoiZDQ1YTNjNjYtMzc3Ny00M2Y2LTg0MjMtZTVjZDljNjM5ZDkyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNzY4NCwiZXhwIjoxNzQyODI4NTg0fQ.fhzidjauIEopQC0OHaWM6CETyHZf2l0WDAlGvcu6syU'}}
+INFO - 2025-03-24 22:48:04,334 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"6F4ca37d6a976df074CA54151Dc5f","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:48:04,340 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:48:04,340 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:48:04,340 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:48:04,341 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 22:48:04,341 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:48:04,341 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:48:04,341 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:48:04,344 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 22:48:04,345 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:48:23,258 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:48:25,260 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:48:25,261 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:48:27,262 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:48:27,264 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:48:29,265 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:48:29,267 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:48:31,268 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:48:31,270 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:48:31,277 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:48:31,277 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:48:31,277 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:48:31,277 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:48:31,277 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:48:31,277 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:48:31,278 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:48:31,282 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyNzcxMSwianRpIjoiOWZhZjc5MjItOTFjMi00MjM2LTlmOTUtNWE0OTU4YjZmMGRhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyNzcxMSwiZXhwIjoxNzQyODI4NjExfQ.nINDETS-TipDJsIP28Xd5uzDjoHiMEF5fpL0alxEQsE'}}
+INFO - 2025-03-24 22:48:31,282 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"53Ea0dedf259c1FFaCaEE231f2Ed1","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:48:31,288 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:48:31,288 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:48:31,288 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:48:31,288 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 22:48:31,288 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:48:31,288 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:48:31,288 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:48:31,290 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 22:48:31,291 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:48:31,293 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:48:31,351 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:48:31,352 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:48:31,355 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:53:45,058 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 22:53:45,067 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:53:45,067 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:53:45,067 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:53:45,067 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:53:45,067 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:53:45,067 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:53:45,067 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:53:45,072 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyODAyNSwianRpIjoiY2QxNmM2Y2YtMzg3Ny00NjI4LTkzYTUtZmNlZWFhM2RlMWZmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyODAyNSwiZXhwIjoxNzQyODI4OTI1fQ.aHStt4LYSJOuMtmY_tzsC1bCgUnu9VWEd2lAprF7w-Y'}}
+INFO - 2025-03-24 22:53:45,072 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"35CfEb341BBa3aA64DaE4ECE9D9a5","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:53:45,078 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:53:45,078 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:53:45,078 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:53:45,079 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 22:53:45,079 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:53:45,079 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:53:45,079 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:53:45,082 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 22:53:45,083 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 22:58:21,082 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:58:21,082 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:58:21,082 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:58:21,082 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:58:21,082 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:58:21,082 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:58:21,082 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:58:21,087 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyODMwMSwianRpIjoiYjEwYzQwMjktMjQ0Yy00ZWViLWEwM2UtMjg5OWFlOGYzYjVjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyODMwMSwiZXhwIjoxNzQyODI5MjAxfQ.KxHyVIEBhDu7uXr0Rnx7h1g3RQsN68o3GQyE6LlB5gg'}}
+INFO - 2025-03-24 22:58:21,087 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"8c49F47196d177944aFa9eAE93AC9","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:58:21,093 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:58:21,093 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:58:21,093 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:58:21,093 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 22:58:21,093 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:58:21,093 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:58:21,093 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:58:21,095 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 22:58:46,359 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:58:46,359 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:58:46,359 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:58:46,359 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 22:58:46,359 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:58:46,359 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:58:46,359 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:58:46,364 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyODMyNiwianRpIjoiZTQ3ZjgxN2YtNDgzZS00MDZmLWI0NmEtZDIyZmUzN2Q3YWQ0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyODMyNiwiZXhwIjoxNzQyODI5MjI2fQ.0m5ZkqYEY_rA5KW3YehAB6atB6vfr_CSl_EZX6jRKsQ'}}
+INFO - 2025-03-24 22:58:46,364 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"9fc586C827Ec43cF96ab3fc3da3ac","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 22:58:46,371 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 22:58:46,371 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 22:58:46,371 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 22:58:46,371 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 22:58:46,371 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 22:58:46,371 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 22:58:46,371 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 22:58:46,374 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 23:01:12,829 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 23:01:12,838 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 23:01:12,838 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 23:01:12,838 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 23:01:12,838 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 23:01:12,838 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 23:01:12,838 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 23:01:12,838 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 23:01:12,842 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyODQ3MiwianRpIjoiMTNiMzdhNjctMjJlMS00ZDliLWFmYjEtNGVmYWM4NGY1OTU1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyODQ3MiwiZXhwIjoxNzQyODI5MzcyfQ.-n57yU8p8O-bP8H-3N03dHwt8tgnYuidObnc4hnh-hk'}}
+INFO - 2025-03-24 23:01:12,842 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"46Cf54cAd1ffc6Ca0aeFA349A26fB","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 23:01:12,849 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 23:01:12,849 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 23:01:12,849 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 23:01:12,849 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 23:01:12,849 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 23:01:12,849 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 23:01:12,849 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 23:01:12,851 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 23:01:12,852 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 23:03:04,693 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 23:03:04,703 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 23:03:04,703 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 23:03:04,703 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 23:03:04,704 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 23:03:04,704 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 23:03:04,704 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 23:03:04,704 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 23:03:04,715 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyODU4NCwianRpIjoiZDJiYWM0NjEtOWYyZS00M2ZmLWJlNDgtYzY2ZjM5YjRkNjkzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyODU4NCwiZXhwIjoxNzQyODI5NDg0fQ.bBz3LTaMzXFKyJVdvgd5rif0EDoat3ajV_1LGZg2-gQ'}}
+INFO - 2025-03-24 23:03:04,715 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"EaBc3AFC835Cd9FF15eeA39e00FE8","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 23:03:04,723 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 23:03:04,723 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 23:03:04,723 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 23:03:04,723 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 23:03:04,723 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 23:03:04,723 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 23:03:04,724 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 23:03:04,729 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 23:03:04,733 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 23:03:04,737 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 23:03:04,745 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 23:03:04,746 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 23:03:04,746 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 23:03:04,746 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 23:03:04,746 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 23:03:04,746 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 23:03:04,746 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 23:03:04,753 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyODU4NCwianRpIjoiOWJiYTUzMjgtNzA5Yi00ZmFiLTk0YTUtNzM1MTZlYTgwZTdlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyODU4NCwiZXhwIjoxNzQyODI5NDg0fQ.RLNpuw7iU-KIKWHQ0Hzg7sXkr1usMnqh9HMuINlWbas'}}
+INFO - 2025-03-24 23:03:04,753 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"485691D86c1a2AAeEcD90E1Fe4DA0","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 23:03:04,761 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 23:03:04,761 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 23:03:04,761 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 23:03:04,761 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 23:03:04,761 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 23:03:04,761 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 23:03:04,762 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 23:03:04,767 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 23:03:04,770 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 23:04:39,037 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 23:04:39,045 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 23:04:39,045 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 23:04:39,045 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 23:04:39,045 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 23:04:39,045 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 23:04:39,045 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 23:04:39,046 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 23:04:39,050 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyODY3OSwianRpIjoiZTc0Y2Q4ZDQtYzYxYS00YzU5LWI3OGUtMTllMjY5NDNmMjg4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyODY3OSwiZXhwIjoxNzQyODI5NTc5fQ.sY26tpqBYLg4NnnGjmrFj-hzxWOnj_UuYM5FKV-yoAA'}}
+INFO - 2025-03-24 23:04:39,050 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"4ca9B71Aec7aFB1ba7B3B367380c1","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 23:04:39,057 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 23:04:39,057 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 23:04:39,057 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 23:04:39,057 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 23:04:39,057 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 23:04:39,057 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 23:04:39,057 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 23:04:39,059 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 23:04:39,060 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 23:04:39,062 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 23:04:39,070 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 23:04:39,070 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 23:04:39,070 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 23:04:39,070 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 23:04:39,070 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 23:04:39,070 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 23:04:39,070 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 23:04:39,072 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 23:04:39,073 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 23:05:06,479 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 23:05:08,480 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 23:05:08,482 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 23:05:10,483 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 23:05:10,485 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 23:05:12,486 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 23:05:12,487 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 23:05:14,488 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 23:05:14,490 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 23:05:14,498 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 23:05:14,498 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 23:05:14,498 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 23:05:14,498 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 23:05:14,498 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 23:05:14,498 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 23:05:14,498 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 23:05:14,502 - FZ_GET_post.py:46 -[FZ_GET_post:send_request] - cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjgyODcxNCwianRpIjoiZDBjYzc0ZmUtYjE3Yy00MjBhLTlhYWUtZTI3MWI5ZDA4N2E5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0MjgyODcxNCwiZXhwIjoxNzQyODI5NjE0fQ.YEo7pOhMOxB7s82zqW6PqLl1RFI3uiJXcN4Ckte1yts'}}
+INFO - 2025-03-24 23:05:14,502 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"90bCEfe4eDDEbaDE3dfcF24A1dA7D","userId":"0076516309237310049"}
+
+INFO - 2025-03-24 23:05:14,509 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 23:05:14,509 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 23:05:14,509 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 23:05:14,509 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码错误登录验证
+INFO - 2025-03-24 23:05:14,509 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 23:05:14,509 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 23:05:14,509 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 23:05:14,511 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 23:05:14,512 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 23:05:14,513 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 23:05:14,520 - FZ_GET_post.py:81 -[FZ_GET_post:run_main] - 接口名称：用户登录
+INFO - 2025-03-24 23:05:14,520 - FZ_GET_post.py:82 -[FZ_GET_post:run_main] - 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-03-24 23:05:14,520 - FZ_GET_post.py:83 -[FZ_GET_post:run_main] - 请求方法：post
+INFO - 2025-03-24 23:05:14,520 - FZ_GET_post.py:84 -[FZ_GET_post:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-03-24 23:05:14,520 - FZ_GET_post.py:85 -[FZ_GET_post:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}', 'passwd': '${md5_parme(123456)}'}
+INFO - 2025-03-24 23:05:14,520 - FZ_GET_post.py:86 -[FZ_GET_post:run_main] - cookies：{'session': '68342hhhb984367'}
+ERROR - 2025-03-24 23:05:14,520 - FZ_GET_post.py:99 -[FZ_GET_post:run_main] - the JSON object must be str, bytes or bytearray, not dict
+INFO - 2025-03-24 23:05:14,522 - FZ_GET_post.py:47 -[FZ_GET_post:send_request] - 接口的实际返回信息为： : {"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2025-03-24 23:05:14,523 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 23:05:14,525 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 23:05:14,582 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================
+INFO - 2025-03-24 23:05:14,584 - conftest.py:8 -[conftest:fixture_test] - ==========================开始测试接口===========================
+INFO - 2025-03-24 23:05:14,587 - conftest.py:10 -[conftest:fixture_test] - ==========================测试接口完成===============================

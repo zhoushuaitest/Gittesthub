@@ -1,0 +1,1 @@
+{"uuid": "1e86cd96-9aaf-4fbf-a3f7-450c8fdee0a1", "children": ["91759ff6-3ed1-4641-a312-9220a4593dac"], "befores": [{"name": "fixture_test", "status": "passed", "start": 1743047210410, "stop": 1743047210410}], "afters": [{"name": "fixture_test::0", "status": "passed", "start": 1743047210442, "stop": 1743047210442}], "start": 1743047210410, "stop": 1743047210442}

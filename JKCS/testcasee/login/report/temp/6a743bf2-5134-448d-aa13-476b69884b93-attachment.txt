@@ -1,0 +1,17 @@
+INFO     JKCS.common.recordlog:conftest.py:9 ==========================开始测试接口===========================
+INFO     JKCS.common.recordlog:FZ_GET_post.py:59 接口名称：用户登录
+INFO     JKCS.common.recordlog:FZ_GET_post.py:60 接口请求地址：http://127.0.0.1:8787/dar/user/login
+INFO     JKCS.common.recordlog:FZ_GET_post.py:61 请求方法：post
+INFO     JKCS.common.recordlog:FZ_GET_post.py:62 测试用例名称：用户名和密码正确登录验证
+INFO     JKCS.common.recordlog:FZ_GET_post.py:63 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'passwd': '${md5_parme(123456)}'}
+INFO     JKCS.common.recordlog:FZ_GET_post.py:64 cookies：{'session': '68342hhhb984367'}
+ERROR    JKCS.common.recordlog:FZ_GET_post.py:77 the JSON object must be str, bytes or bytearray, not dict
+INFO     JKCS.common.recordlog:FZ_GET_post.py:24 cookie为 : {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0Mjk3MjM3NCwianRpIjoiNWI4MTVjNjMtN2U1Ny00OTFjLWJjYTEtN2NiMWYyMTVjMmZlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc0Mjk3MjM3NCwiZXhwIjoxNzQyOTczMjc0fQ.nFfCWwUFA9PDHDfd23qy-YKPFC_Ox82v6aUp0q_Mfuw'}}
+INFO     JKCS.common.recordlog:FZ_GET_post.py:25 接口的实际返回信息为： : {"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"b79Cd4d6Cab44CEd7380F0fA6FD8F","userId":"1215153239747527507"}
+
+INFO     JKCS.common.recordlog:apiutil.py:143 提取接口的返回值：
+INFO     JKCS.common.recordlog:assertions.py:130 yaml文件的预期结果：[{'db': 'select * from student'}]
+INFO     JKCS.common.recordlog:connections.py:27 成功链接到数据库
+INFO     JKCS.common.recordlog:assertions.py:113 数据库断言成功
+INFO     JKCS.common.recordlog:assertions.py:153 测试成功
+INFO     JKCS.common.recordlog:conftest.py:11 ==========================测试接口完成===============================

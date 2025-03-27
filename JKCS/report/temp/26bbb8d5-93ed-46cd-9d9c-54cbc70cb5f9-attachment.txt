@@ -1,0 +1,14 @@
+[32mINFO    [0m JKCS.common.recordlog:conftest.py:9 ==========================开始测试接口===========================
+[32mINFO    [0m JKCS.common.recordlog:FZ_GET_post.py:59 接口名称：新增用户
+[32mINFO    [0m JKCS.common.recordlog:FZ_GET_post.py:60 接口请求地址：http://127.0.0.1:8787/dar/user/addUser
+[32mINFO    [0m JKCS.common.recordlog:FZ_GET_post.py:61 请求方法：post
+[32mINFO    [0m JKCS.common.recordlog:FZ_GET_post.py:62 测试用例名称：新增用户
+[32mINFO    [0m JKCS.common.recordlog:FZ_GET_post.py:63 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'passwd': '${md5_parme(123456)}'}
+[32mINFO    [0m JKCS.common.recordlog:FZ_GET_post.py:64 cookies：{'session': '68342hhhb984367'}
+[1m[31mERROR   [0m JKCS.common.recordlog:FZ_GET_post.py:77 the JSON object must be str, bytes or bytearray, not dict
+[32mINFO    [0m JKCS.common.recordlog:FZ_GET_post.py:25 接口的实际返回信息为： : {"error_code":null,"msg":"新增成功","msg_code":200}
+
+[32mINFO    [0m JKCS.common.recordlog:assertions.py:130 yaml文件的预期结果：[{'db': 'select * from student'}]
+[1m[31mERROR   [0m JKCS.common.recordlog:assertions.py:148 请检查断言字段是否包含在接口的返回值中
+[1m[31mERROR   [0m JKCS.common.recordlog:assertions.py:149 异常信息：'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+[32mINFO    [0m JKCS.common.recordlog:conftest.py:11 ==========================测试接口完成===============================
