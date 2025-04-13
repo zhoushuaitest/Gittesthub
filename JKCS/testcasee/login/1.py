@@ -1,0 +1,2 @@
+a = {'baseInfo': {'api_name': '用户登录', 'url': '/dar/user/login', 'method': 'post', 'header': {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_ex_data(token)}'}},
+     'testCase': [{'case_name': '用户名和密码正确登录验证', 'data': {'user_name': 'test01', 'passwd': "${md5_parme('abc')}"}, 'validation': [{'contains': {'msg': '登录成功'}}]}, {'case_name': '用户名和密码错误登录验证', 'data': {'user_name': 'test03', 'passwd': 'admin1234'}, 'validation': [{'contains': {'msg': '登录成功'}}]}]}
